@@ -1,0 +1,21 @@
+.sign-in {
+    width: 40%;
+    background-color: deeppink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.sign-in input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.sign-in input[type='button'] {
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+}

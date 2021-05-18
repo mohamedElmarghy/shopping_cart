@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendors/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>shopping card| Home page</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <div class="header-content">
+            <div class="brand">
+               <a href="index.html" id="brand"><h2>Shopping Card</h2></a> 
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="signIn.html">Sign In</a></li>
+                    <li><a href="signUp.html">Sign Up</a></li>
+                </ul>
+               
+            </div>
+            <div class="signOut">
+                <ul>
+                    <li><a href="index.html" id="logOut">Log out</a></li>
+                    <li><a href="favorites.html">Favorites</a></li>
+                    <li><a href="my-products.html">My Products</a></li>
+                    <li class="drop-down">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" id="shoppingIcon"><span></span></i>
+                        <div class="dropdown-content">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            
+        </div>
+        
+    </div>
+    <div class="search-form">
+        <div class="container">
+            <input type="text" placeholder="find your product ...">
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main-content"></div>
+            <div class="products-filter">
+                <h2>Filter By Size:</h2>
+                <select id="size-filter">
+                  <option value="" hidden>Filter By Size</option>
+                  <option value="all">All</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <a href="add-product.html" class="add-product"><i class="fa fa-plus" aria-hidden="true"></i>
+    </a>
+<script src="resources/js/data.js"></script>
+<script src="resources/js/user.js"></script>
+<script src="resources/js/shoppingIcon.js"></script>
+<script src="resources/js/index.js"></script>
+</body>
+</html>
